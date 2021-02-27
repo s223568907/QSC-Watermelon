@@ -22046,6 +22046,7 @@
                 },
                 _glView: null,
                 _updateCanvasBoundingRect: function() {
+					/*
                     var t = cc.game.canvas,
                         e = this._canvasBoundingRect,
                         i = document.documentElement,
@@ -22055,7 +22056,8 @@
                         var s = t.getBoundingClientRect();
                         e.left = s.left + n, e.top = s.top + r, e.width = s.width, e.height = s.height
                     } else t instanceof HTMLCanvasElement ? (e.left = n, e.top = r, e.width = t.width, e.height = t.height) : (e.left = n, e.top = r, e.width = parseInt(t.style.width), e.height = parseInt(t.style.height))
-                },
+					*/
+				},
                 handleTouchesBegin: function(t) {
                     for (var e = void 0, i = void 0, n = void 0, o = [], a = this._touchesIntegerDict, l = r.now(), h = 0, c = t.length; h < c; h++)
                         if (null == a[n = (e = t[h]).getID()]) {
