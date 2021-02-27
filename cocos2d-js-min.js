@@ -22226,17 +22226,17 @@
                                         e.handleTouchesCancel(t)
                                     }
                                 },
+								/*
                                 m = function(n) {
                                     var r = p[n];
                                     t.addEventListener(n, (function(t) {
-										/*
                                         if (t.changedTouches) {
                                             var n = document.body;
                                             i.adjustedLeft = i.left - (n.scrollLeft || 0), i.adjustedTop = i.top - (n.scrollTop || 0), r(e.getTouchesByEvent(t, i)), t.stopPropagation(), t.preventDefault()
                                         }
-										*/
                                     }), !1)
                                 };
+								*/
                             for (var d in p) m(d)
                         }
                         this._registerKeyboardEvent(), this._isRegisterEvent = !0
