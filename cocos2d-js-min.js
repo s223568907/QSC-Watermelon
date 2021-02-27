@@ -22226,7 +22226,6 @@
                                         e.handleTouchesCancel(t)
                                     }
                                 },
-								/*
                                 m = function(n) {
                                     var r = p[n];
                                     t.addEventListener(n, (function(t) {
@@ -22236,7 +22235,6 @@
                                         }
                                     }), !1)
                                 };
-								*/
                             for (var d in p) m(d)
                         }
                         this._registerKeyboardEvent(), this._isRegisterEvent = !0
